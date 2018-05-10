@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using leetcode.problems;
+
 namespace leetcode
 {
-    public partial class Form1 : Form
+    public partial class LeetCodeMainForm : Form
     {
-        public Form1()
+        public LeetCodeMainForm()
         {
             InitializeComponent();
+        }
+
+        private async void GetMoviesButton_Click(object sender, EventArgs e)
+        {
+            string[] titles = await GetMovies.getAsyncMovieTitles("spiderman");
         }
     }
 }
