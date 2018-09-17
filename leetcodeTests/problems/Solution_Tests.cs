@@ -14,8 +14,26 @@ namespace leetcode.problems.Tests
         [TestMethod()]
         public void apply_Test()
         {
-          
+
             Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void whMain_Test()
+        {
+            // Arrange
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("2");
+            sb.AppendLine("7 5");
+            sb.AppendLine("2 6 9");
+            sb.AppendLine("5 11 4");
+            string expected = sb.ToString();
+
+            // Act
+            string result = PrettyPrintTree.whMain();
+
+            // Assert
+            Assert.AreEqual(expected, result);
         }
     }
 }

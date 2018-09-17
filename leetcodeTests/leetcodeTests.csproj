@@ -51,17 +51,30 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="problems\Codility_Kantaloop_Tests.cs" />
     <Compile Include="problems\CountingBinarySubstrings_Tests.cs" />
     <Compile Include="problems\DiagnoalDifference_Tests.cs" />
+    <Compile Include="problems\Fibonacci_Tests.cs" />
+    <Compile Include="problems\ArrayIsSorted_Tests.cs" />
     <Compile Include="problems\GradingStudents_Tests.cs" />
     <Compile Include="problems\IntegerToAlphabet_Tests.cs" />
     <Compile Include="problems\JumpGameIITests.cs" />
+    <Compile Include="problems\ParenthesisExpression_Tests.cs" />
+    <Compile Include="problems\p4_1_Tests.cs" />
+    <Compile Include="problems\p5_1_Tests.cs" />
+    <Compile Include="problems\p5_6_Tests.cs" />
+    <Compile Include="problems\p6_1_Tests.cs" />
+    <Compile Include="problems\p7_1_Tests.cs" />
+    <Compile Include="problems\p8_1_Tests.cs" />
+    <Compile Include="problems\p9_3_Tests.cs" />
     <Compile Include="problems\PalindromeTests.cs" />
+    <Compile Include="problems\RangeBoundSorter_Tests.cs" />
     <Compile Include="problems\RemoveDuplicatesFromSortedArrayTests.cs" />
     <Compile Include="problems\RemoveNthNodeFromLinkedListTests.cs" />
     <Compile Include="problems\ReverseIntegerTests.cs" />
     <Compile Include="problems\ReverseLinkedList2_Tests.cs" />
     <Compile Include="problems\Solution_Tests.cs" />
+    <Compile Include="problems\Crypto_ArrayProblems_Tests.cs" />
     <Compile Include="problems\TimeConversion_Tests.cs" />
     <Compile Include="problems\_3Sum_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -58,15 +58,25 @@
     </Compile>
     <Compile Include="problems\15_3Sum.cs" />
     <Compile Include="problems\9_Palindrome.cs" />
+    <Compile Include="problems\Fibonacci.cs" />
+    <Compile Include="problems\FizzBuzz.cs" />
+    <Compile Include="problems\RangeBoundSorter.cs" />
+    <Compile Include="problems\Crypto_ArrayProblems.cs" />
+    <Compile Include="problems\Graph_ListParents.cs" />
+    <Compile Include="problems\Codility_Kantaloop.cs" />
     <Compile Include="problems\CountingBinarySubstrings.cs" />
     <Compile Include="problems\DiagnoalDifference.cs" />
+    <Compile Include="problems\Elements_of_Programming_Interviews.cs" />
     <Compile Include="problems\GetMovies.cs" />
+    <Compile Include="problems\ArrayIsSorted.cs" />
     <Compile Include="problems\GradingStudents.cs" />
     <Compile Include="problems\HackerRankIO.cs" />
     <Compile Include="problems\IntegerToAlphabet.cs" />
+    <Compile Include="problems\IteratorExercises.cs" />
     <Compile Include="problems\JumpGameII.cs" />
     <Compile Include="problems\JumpGameIIb.cs" />
     <Compile Include="problems\JumpGameIIFactory.cs" />
+    <Compile Include="problems\ParenthesisExpression.cs" />
     <Compile Include="problems\MedianOfTwoSortedArrays.cs" />
     <Compile Include="problems\MiniMaxSum.cs" />
     <Compile Include="problems\RemoveDuplicatesFromSortedArray.cs" />
@@ -74,8 +84,10 @@
     <Compile Include="problems\ReverseInteger.cs" />
     <Compile Include="problems\ReverseLinkedList2.cs" />
     <Compile Include="problems\TimeConversion.cs" />
+    <Compile Include="problems\PrettyPrintTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="problems\BankingTransactions.cs" />
     <EmbeddedResource Include="LeetCodeMainForm.resx">
       <DependentUpon>LeetCodeMainForm.cs</DependentUpon>
     </EmbeddedResource>
